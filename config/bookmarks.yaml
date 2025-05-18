@@ -1,0 +1,604 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/bookmarks
+
+- Google Suite:
+    - Gmail:
+        - description: Gmail
+          href: https://mail.google.com/mail/u/0/?hl=it#inbox
+          icon: https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico
+    - Calendar:
+        - description: Calendar
+          href: https://calendar.google.com/
+          icon: https://www.gstatic.com/companion/icon_assets/calendar_2020q4_2x.png
+    - Drive:
+        - description: Drive
+          href: https://drive.google.com/drive/u/0/home
+          icon: https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png
+- Development:
+    - Jira:
+        - description: Jira
+          href: https://maxmarafashiongroup.atlassian.net/
+          icon: https://maxmarafashiongroup.atlassian.net/s/xghl7j/b/9/6b6b5a15a3a4ce1e21a0369646069374/_/jira-logo-scaled.png
+    - Tempo:
+        - description: Tempo
+          href: https://maxmarafashiongroup.atlassian.net/plugins/servlet/ac/io.tempo.jira/tempo-app#!/my-work/week?type=TIME
+          icon: https://static.tempo.io/io/non-versioned/img/tempo-logo.png
+    - Github:
+        - description: Github
+          href: https://github.com/b2c-management
+          icon: https://github.githubassets.com/favicons/favicon-dark.svg
+    - AWS:
+        - description: AWS
+          href: https://d-936762f12d.awsapps.com/start#/
+          icon: https://eu-west-1.signin.aws/favicon.ico
+    - New Relic:
+        - description: New Relice
+          href: https://one.newrelic.com/nr1-core
+          icon: https://th.bing.com/th/id/ODLS.a7b08e6a-1e41-40c4-ad9b-1298bd27f9c5?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2
+    - Splunk:
+        - description: Splunk
+          href: https://maxmarafashiongroup.signalfx.com/#/home
+          icon: https://www.splunk.com/content/dam/splunk2/images/icons/favicons/favicon.ico
+
+- Local:
+    - HAC:
+        - description: ""
+          href: http://localhost:9001/administration/console/scripting
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: http://localhost:9001/backoffice/login.zul
+          icon: https://www.sap.com/favicon.ico
+    - Solr:
+        - description: ""
+          href: https://localhost:8983/solr/#/login
+          icon: https://solr.apache.org/theme/images/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: http://localhost:8080/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - MA Frontend:
+        - description: ""
+          href: http://it.dev.marella.digitalcoat.cloud:8080/home
+          icon: https://www.marella.com/.resources/marella-magnolia-module/themes/marella-theme/dist/images/favicons/favicon.ico
+
+- Marella TEST:
+    - HAC:
+        - description: ""
+          href: https://backoffice.test.internal.marella.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.test.internal.marella.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.test.internal.marella.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.test.marella.digitalcoat.cloud/home
+          icon: https://www.marella.com/.resources/marella-magnolia-module/themes/marella-theme/dist/images/favicons/favicon.ico
+
+- Marella UAT:
+    - HAC:
+        - description: ""
+          href: https://backoffice.uat.internal.marella.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.uat.internal.marella.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.uat.internal.marella.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.uat.marella.digitalcoat.cloud/home
+          icon: https://www.marella.com/.resources/marella-magnolia-module/themes/marella-theme/dist/images/favicons/favicon.ico
+
+- Marella PROD:
+    - HAC:
+        - description: ""
+          href: https://backoffice.internal.marella.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.internal.marella.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.internal.marella.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://marella.it
+          icon: https://www.marella.com/.resources/marella-magnolia-module/themes/marella-theme/dist/images/favicons/favicon.ico
+
+- Weekend TEST:
+    - HAC:
+        - description: ""
+          href: https://backoffice.test.internal.weekendmaxmara.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.test.internal.weekendmaxmara.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.test.internal.weekendmaxmara.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.test.weekendmaxmara.digitalcoat.cloud/home
+          icon: https://www.weekendmaxmara.com/.resources/weekend-magnolia-module/themes/weekend-theme/dist/images/favicons/favicon.ico
+
+- Weekend UAT:
+    - HAC:
+        - description: ""
+          href: https://backoffice.uat.internal.weekendmaxmara.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.uat.internal.weekendmaxmara.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.uat.internal.weekendmaxmara.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.uat.weekendmaxmara.digitalcoat.cloud/home
+          icon: https://www.weekendmaxmara.com/.resources/weekend-magnolia-module/themes/weekend-theme/dist/images/favicons/favicon.ico
+
+- Weekend PROD:
+    - HAC:
+        - description: ""
+          href: https://backoffice.internal.weekendmaxmara.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.internal.weekendmaxmara.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.internal.weekendmaxmara.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://weekendmaxmara.it
+          icon: https://www.weekendmaxmara.com/.resources/weekend-magnolia-module/themes/weekend-theme/dist/images/favicons/favicon.ico
+
+- Intrend TEST:
+    - HAC:
+        - description: ""
+          href: https://backoffice.test.internal.intrend.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.test.internal.intrend.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.test.internal.intrend.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.test.intrend.digitalcoat.cloud/home
+          icon: https://www.intrend.it/.resources/intrend-magnolia-module/themes/intrend-theme/dist/images/favicons/favicon.ico
+
+- Intrend UAT:
+    - HAC:
+        - description: ""
+          href: https://backoffice.uat.internal.intrend.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.uat.internal.intrend.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.uat.internal.intrend.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.uat.intrend.digitalcoat.cloud/home
+          icon: https://www.intrend.it/.resources/intrend-magnolia-module/themes/intrend-theme/dist/images/favicons/favicon.ico
+
+- Intrend PROD:
+    - HAC:
+        - description: ""
+          href: https://backoffice.internal.intrend.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.internal.intrend.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.internal.intrend.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://intrend.it
+          icon: https://www.intrend.it/.resources/intrend-magnolia-module/themes/intrend-theme/dist/images/favicons/favicon.ico
+
+- Sportmax TEST:
+    - HAC:
+        - description: ""
+          href: https://backoffice.test.internal.sportmax.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.test.internal.sportmax.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.test.internal.sportmax.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.test.sportmax.digitalcoat.cloud/home
+          icon: https://it.sportmax.com/.resources/sportmax-magnolia-module/themes/sportmax-theme/dist/images/favicons/favicon.ico
+
+- Sportmax UAT:
+    - HAC:
+        - description: ""
+          href: https://backoffice.uat.internal.sportmax.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.uat.internal.sportmax.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.uat.internal.sportmax.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.uat.sportmax.digitalcoat.cloud/home
+          icon: https://it.sportmax.com/.resources/sportmax-magnolia-module/themes/sportmax-theme/dist/images/favicons/favicon.ico
+
+- Sportmax PROD:
+    - HAC:
+        - description: ""
+          href: https://backoffice.internal.sportmax.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.internal.sportmax.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.internal.sportmax.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://sportmax.it
+          icon: https://it.sportmax.com/.resources/sportmax-magnolia-module/themes/sportmax-theme/dist/images/favicons/favicon.ico
+
+- IBlues TEST:
+    - HAC:
+        - description: ""
+          href: https://backoffice.test.internal.iblues.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.test.internal.iblues.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.test.internal.iblues.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.test.iblues.digitalcoat.cloud/home
+          icon: https://it.iblues.it/.resources/iblues-magnolia-module/themes/iblues-theme/dist/images/favicons/favicon.ico
+
+- IBlues UAT:
+    - HAC:
+        - description: ""
+          href: https://backoffice.uat.internal.iblues.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.uat.internal.iblues.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.uat.internal.iblues.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.uat.iblues.digitalcoat.cloud/home
+          icon: https://it.iblues.it/.resources/iblues-magnolia-module/themes/iblues-theme/dist/images/favicons/favicon.ico
+
+- IBlues PROD:
+    - HAC:
+        - description: ""
+          href: https://backoffice.internal.iblues.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.internal.iblues.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.internal.iblues.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://iblues.it
+          icon: https://it.iblues.it/.resources/iblues-magnolia-module/themes/iblues-theme/dist/images/favicons/favicon.ico
+
+- MaxMara TEST:
+    - HAC:
+        - description: ""
+          href: https://backoffice.test.internal.maxmara.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.test.internal.maxmara.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.test.internal.maxmara.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.test.maxmara.digitalcoat.cloud/home
+          icon: https://www.maxmara.com/docroot/maxmara/public/favicons/favicon.ico
+
+- MaxMara UAT:
+    - HAC:
+        - description: ""
+          href: https://backoffice.uat.internal.maxmara.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.uat.internal.maxmara.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.uat.internal.maxmara.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.uat.maxmara.digitalcoat.cloud/home
+          icon: https://www.maxmara.com/docroot/maxmara/public/favicons/favicon.ico
+
+- MaxMara PROD:
+    - HAC:
+        - description: ""
+          href: https://backoffice.internal.maxmara.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.internal.maxmara.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.internal.maxmara.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://maxmara.it
+          icon: https://www.maxmara.com/docroot/maxmara/public/favicons/favicon.ico
+
+- Marina Rinaldi TEST:
+    - HAC:
+        - description: ""
+          href: https://backoffice.test.internal.marinarinaldi.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.test.internal.marinarinaldi.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.test.internal.marinarinaldi.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.test.marinarinaldi.digitalcoat.cloud/home
+          icon: https://it.marinarinaldi.com/docroot/marinarinaldi/public/favicons/favicon.ico
+
+- Marina Rinaldi UAT:
+    - HAC:
+        - description: ""
+          href: https://backoffice.uat.internal.marinarinaldi.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.uat.internal.marinarinaldi.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.uat.internal.marinarinaldi.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.uat.marinarinaldi.digitalcoat.cloud/home
+          icon: https://it.marinarinaldi.com/docroot/marinarinaldi/public/favicons/favicon.ico
+
+- Marina Rinaldi PROD:
+    - HAC:
+        - description: ""
+          href: https://backoffice.internal.marinarinaldi.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.internal.marinarinaldi.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.internal.marinarinaldi.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://marinarinaldi.it
+          icon: https://it.marinarinaldi.com/docroot/marinarinaldi/public/favicons/favicon.ico
+
+- Max&Co TEST:
+    - HAC:
+        - description: ""
+          href: https://backoffice.test.internal.maxandco.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.test.internal.maxandco.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.test.internal.maxandco.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.test.maxandco.digitalcoat.cloud/home
+          icon: https://it.maxandco.com/docroot/maxandco/public/favicons/favicon.ico
+
+- Max&Co UAT:
+    - HAC:
+        - description: ""
+          href: https://backoffice.uat.internal.maxandco.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.uat.internal.maxandco.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.uat.internal.maxandco.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.uat.maxandco.digitalcoat.cloud/home
+          icon: https://it.maxandco.com/docroot/maxandco/public/favicons/favicon.ico
+
+- Max&Co PROD:
+    - HAC:
+        - description: ""
+          href: https://backoffice.internal.maxandco.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.internal.maxandco.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.internal.maxandco.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://maxandco.it
+          icon: https://it.maxandco.com/docroot/maxandco/public/favicons/favicon.ico
+
+- PennyBlack TEST:
+    - HAC:
+        - description: ""
+          href: https://backoffice.test.internal.pennyblack.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.test.internal.pennyblack.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.test.internal.pennyblack.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.test.pennyblack.digitalcoat.cloud/home
+          icon: https://it.pennyblack.com/docroot/pennyblack/public/favicons/favicon.ico
+
+- PennyBlack UAT:
+    - HAC:
+        - description: ""
+          href: https://backoffice.uat.internal.pennyblack.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.uat.internal.pennyblack.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.uat.internal.pennyblack.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.uat.pennyblack.digitalcoat.cloud/home
+          icon: https://it.pennyblack.com/docroot/pennyblack/public/favicons/favicon.ico
+
+- PennyBlack PROD:
+    - HAC:
+        - description: ""
+          href: https://backoffice.internal.pennyblack.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.internal.pennyblack.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.internal.pennyblack.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://pennyblack.it
+          icon: https://it.pennyblack.com/docroot/pennyblack/public/favicons/favicon.ico
+
+- FashionMarket TEST:
+    - HAC:
+        - description: ""
+          href: https://backoffice.test.internal.fashionmarket.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.test.internal.fashionmarket.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.test.internal.fashionmarket.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.test.fashionmarket.digitalcoat.cloud/home
+          icon: https://it.fashionmarket.com/docroot/fashionmarket/public/favicons/favicon.ico
+
+- FashionMarket UAT:
+    - HAC:
+        - description: ""
+          href: https://backoffice.uat.internal.fashionmarket.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.uat.internal.fashionmarket.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.uat.internal.fashionmarket.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.uat.fashionmarket.digitalcoat.cloud/home
+          icon: https://it.fashionmarket.com/docroot/fashionmarket/public/favicons/favicon.ico
+
+- FashionMarket PROD:
+    - HAC:
+        - description: ""
+          href: https://backoffice.internal.fashionmarket.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.internal.fashionmarket.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.internal.fashionmarket.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://fashionmarket.it
+          icon: https://it.fashionmarket.com/docroot/fashionmarket/public/favicons/favicon.ico

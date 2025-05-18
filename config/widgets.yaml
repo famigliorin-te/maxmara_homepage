@@ -1,0 +1,22 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/info-widgets/
+
+- resources: false
+
+- logo:
+    icon: /images/logo.svg
+
+- search:
+    provider: bing
+    focus: true
+    showSearchSuggestions: true
+    target: _self
+
+- datetime:
+    text_size: xl
+    locale: it
+    format:
+      timeStyle: short
+      dateStyle: short
+      hourCycle: h23

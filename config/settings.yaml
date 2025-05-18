@@ -1,0 +1,133 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+title: MaxMara Homepage
+
+background:
+  image: /images/wallpaper.jpg
+  opacity: 30
+
+favicon: https://maxmarafashiongroup.atlassian.net/s/xghl7j/b/9/6b6b5a15a3a4ce1e21a0369646069374/_/jira-logo-scaled.png
+cardBlur: xs
+theme: dark
+color: stone
+headerStyle: boxed
+target: _self
+hideVersion: true
+disableUpdateCheck: false
+instanceName: giglium
+fullWidth: true
+maxGroupColumns: 3
+
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: false
+  showSearchSuggestions: true
+  hideVisitURL: false
+  provider: bing
+
+layout:
+  maxGroupColumns: 3
+
+  Google Suite:
+    style: column
+    columns: 3
+    iconsOnly: true
+  Development:
+    style: column
+    columns: 6
+    iconsOnly: true
+  Local:
+    style: row
+    columns: 5
+
+  Marella TEST:
+    tab: TEST
+
+  Weekend TEST:
+    tab: TEST
+
+  Intrend TEST:
+    tab: TEST
+
+  Sportmax TEST:
+    tab: TEST
+
+  IBlues TEST:
+    tab: TEST
+
+  MaxMara TEST:
+    tab: TEST
+
+  Marina Rinaldi TEST:
+    tab: TEST
+
+  Max&Co TEST:
+    tab: TEST
+
+  PennyBlack TEST:
+    tab: TEST
+
+  FashionMarket TEST:
+    tab: TEST
+
+  Marella UAT:
+    tab: UAT
+
+  Weekend UAT:
+    tab: UAT
+
+  Intrend UAT:
+    tab: UAT
+
+  Sportmax UAT:
+    tab: UAT
+
+  IBlues UAT:
+    tab: UAT
+
+  MaxMara UAT:
+    tab: UAT
+
+  Marina Rinaldi UAT:
+    tab: UAT
+
+  Max&Co UAT:
+    tab: UAT
+
+  PennyBlack UAT:
+    tab: UAT
+
+  FashionMarket UAT:
+    tab: UAT
+
+  Marella PROD:
+    tab: PROD
+
+  Weekend PROD:
+    tab: PROD
+
+  Intrend PROD:
+    tab: PROD
+
+  Sportmax PROD:
+    tab: PROD
+
+  IBlues PROD:
+    tab: PROD
+
+  MaxMara PROD:
+    tab: PROD
+
+  Marina Rinaldi PROD:
+    tab: PROD
+
+  Max&Co PROD:
+    tab: PROD
+
+  PennyBlack PROD:
+    tab: PROD
+
+  FashionMarket PROD:
+    tab: PROD
