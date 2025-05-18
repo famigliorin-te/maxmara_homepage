@@ -20,7 +20,7 @@ all: clean start
 
 .PHONY: start
 start: ## Run the homepage application
-	@docker run --name=$(PROJECT_NAME) -d \
+	@docker run --platform linux/arm64 --name=$(PROJECT_NAME) -d \
     	--restart unless-stopped \
     	-p 3001:3000 \
         -e LOG_TARGETS=stdout \
