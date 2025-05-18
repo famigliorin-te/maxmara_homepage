@@ -18,7 +18,6 @@ hideVersion: true
 disableUpdateCheck: false
 instanceName: maxmara
 fullWidth: true
-maxGroupColumns: 3
 
 quicklaunch:
   searchDescriptions: true
@@ -28,8 +27,6 @@ quicklaunch:
   provider: bing
 
 layout:
-  maxGroupColumns: 3
-
   Google Suite:
     style: column
     columns: 3
