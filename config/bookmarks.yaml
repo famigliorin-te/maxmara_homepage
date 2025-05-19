@@ -602,3 +602,57 @@
         - description: ""
           href: https://fashionmarket.it
           icon: https://it.fashionmarket.com/docroot/fashionmarket/public/favicons/favicon.ico
+
+- Emme TEST:
+    - HAC:
+        - description: ""
+          href: https://backoffice.test.internal.emme.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.test.internal.emme.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.test.internal.emme.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.test.emme.digitalcoat.cloud/home
+          icon: https://it.emme.com/docroot/emme/public/favicons/favicon.ico
+
+- Emme UAT:
+    - HAC:
+        - description: ""
+          href: https://backoffice.uat.internal.emme.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.uat.internal.emme.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.uat.internal.emme.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://it.uat.emme.digitalcoat.cloud/home
+          icon: https://it.emme.com/docroot/emme/public/favicons/favicon.ico
+
+- Emme PROD:
+    - HAC:
+        - description: ""
+          href: https://backoffice.internal.emme.digitalcoat.cloud/administration/login
+          icon: https://upload.wikimedia.org/wikipedia/en/c/ca/Hybris_company_%28SAP%29_logo.jpg
+    - Backoffice:
+        - description: ""
+          href: https://backoffice.internal.emme.digitalcoat.cloud/backoffice/
+          icon: https://www.sap.com/favicon.ico
+    - Mangolia:
+        - description: ""
+          href: https://magnolia.internal.emme.digitalcoat.cloud/author/.magnolia/admincentral
+          icon: https://www.magnolia-cms.com/.resources/corpweb2021/webresources/img/favicon.png
+    - Frontend:
+        - description: ""
+          href: https://emme.it
+          icon: https://it.emme.com/docroot/emme/public/favicons/favicon.ico
